@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>OTP Test</title>
+</head>
+<body>
+<h1>OTP Configuration</h1>
+
+<p><strong>Encoded Key:</strong> <span th:text="${encodedKey}"></span></p>
+<p><strong>QR Code URL:</strong> <img th:src="${url}" /></p>
+</body>
+</html>
